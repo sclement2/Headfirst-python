@@ -1,5 +1,13 @@
+
 image:
   file: .gitpod.Dockerfile
 
 tasks:
   - init: pip install -r requirements.txt
+vscode:
+  extensions:
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+    - ms-toolsai.vscode-jupyter-cell-tags
+    - ms-toolsai.vscode-jupyter-slideshow
